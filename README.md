@@ -1,5 +1,5 @@
 # My_Portfolio
-# 💻 Aryan Bandhu | Professional Portfolio
+# 💻 Aryan Bandhu | Portfolio
 
 ## Software Developer with a Focus on Cybersecurity
 
