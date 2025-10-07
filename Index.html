@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio for Aryan Bandhu, a software developer specializing in full-stack development and cybersecurity.">
+    <meta name="author" content="Aryan Bandhu">
+    <title>Aryan Bandhu | Software Developer & Cybersecurity Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="antialiased">
+
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-blue-600">Aryan Bandhu</a>
+            <ul class="hidden md:flex items-center space-x-8">
+                <li><a href="#about" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">About</a></li>
+                <li><a href="#skills" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Skills</a></li>
+                <li><a href="#projects" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Projects</a></li>
+                <li><a href="#experience" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Experience</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium transition duration-300">Contact</a></li>
+            </ul>
+            <a href="resume.pdf" target="_blank" class="hidden md:block bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300 font-medium shadow-sm hover:shadow-md">View Resume</a>
+            <button id="mobile-menu-button" class="md:hidden text-2xl text-gray-800">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <ul class="flex flex-col items-center py-4 space-y-4">
+                <li><a href="#about" class="block text-gray-600 hover:text-blue-600">About</a></li>
+                <li><a href="#skills" class="block text-gray-600 hover:text-blue-600">Skills</a></li>
+                <li><a href="#projects" class="block text-gray-600 hover:text-blue-600">Projects</a></li>
+                <li><a href="#experience" class="block text-gray-600 hover:text-blue-600">Experience</a></li>
+                <li><a href="#contact" class="block text-gray-600 hover:text-blue-600">Contact</a></li>
+                <li><a href="resume.pdf" target="_blank" class="block bg-blue-600 text-white w-48 text-center px-4 py-2 mt-4 rounded-lg hover:bg-blue-700 transition duration-300">View Resume</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-32 text-center flex flex-col items-center">
+                <img src="Profile.jpg" alt="Aryan Bandhu - Headshot" class="w-40 h-40 rounded-full border-4 border-blue-400 shadow-xl mb-6">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4">Aryan Bandhu</h1>
+                <p class="text-xl md:text-2xl text-blue-300 mb-8 font-light">Software Developer with a focus on Cybersecurity.</p>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/iaryanbandhu7" target="_blank" aria-label="GitHub Profile" class="text-4xl hover:text-blue-400 transition duration-300"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/iaryanbandhu/" target="_blank" aria-label="LinkedIn Profile" class="text-4xl hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-white reveal">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">About Me</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        I am a Computer Science student with a strong foundation in software development and an active interest in cybersecurity. I enjoy building secure, scalable applications and am passionate about defending digital systems. I am currently seeking opportunities to apply my skills in a professional environment and contribute to challenging projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-24 reveal">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Core Competencies</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-12"></div>
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fas fa-shield-alt text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold">Cybersecurity</h3>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fab fa-python text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold">Python</h3>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fab fa-js-square text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold">JavaScript</h3>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fas fa-database text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold">SQL</h3>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fab fa-git-alt text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-lg font-semibold">Git & GitHub</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-24 bg-white reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-4">Projects</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-12"></div>
+                <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300 group">
+                        <img src="project1.png" alt="Portfolio Website Project" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-3">Professional Portfolio Website</h3>
+                            <p class="text-gray-700 mb-4">A responsive personal portfolio built with HTML, Tailwind CSS, and JavaScript to showcase my skills, projects, and professional experience.</p>
+                            <div class="flex space-x-4">
+                                <a href="https://github.com/iaryanbandhu7" target="_blank" class="font-medium text-blue-600 hover:underline">View Source <i class="fas fa-arrow-right ml-1 text-sm"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-100 rounded-lg shadow-md flex flex-col items-center justify-center p-6 text-center border-2 border-dashed">
+                       <i class="fas fa-code text-5xl text-gray-400 mb-4"></i>
+                       <h3 class="text-2xl font-bold text-gray-600 mb-3">Next Project</h3>
+                       <p class="text-gray-500">More projects demonstrating my skills in development and cybersecurity are coming soon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="py-24 reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-4">Career Journey</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-16"></div>
+                <div class="max-w-3xl mx-auto relative timeline-line">
+                    <div class="mb-12 flex items-center w-full reveal">
+                        <div class="hidden md:block w-1/2"></div>
+                        <div class="z-10 bg-blue-600 w-8 h-8 rounded-full shadow-lg flex items-center justify-center"><i class="fas fa-graduation-cap text-white text-sm"></i></div>
+                        <div class="bg-white p-6 rounded-lg shadow-md w-full md:w-1/2 ml-4 md:ml-8">
+                            <p class="text-gray-500 text-sm font-medium">2024 - 2028</p>
+                            <h3 class="text-xl font-bold">B.Tech in Computer Science</h3>
+                            <p class="text-gray-600 italic">Technocrats Institute of Technology & Science</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-12 flex justify-end md:justify-start items-center w-full reveal">
+                        <div class="w-full md:w-1/2 text-left md:text-right md:pr-8 order-last md:order-first">
+                             <div class="bg-white p-6 rounded-lg shadow-md">
+                                <p class="text-gray-500 text-sm font-medium">2023 - 2024</p>
+                                <h3 class="text-xl font-bold">Internship</h3>
+                                <p class="text-gray-600 italic">Tech Mahindra</p>
+                                <p class="text-gray-700 mt-2 text-sm">Assisted in developing and testing internal web applications, gaining hands-on experience with Agile methodologies and corporate coding standards.</p>
+                            </div>
+                        </div>
+                        <div class="z-10 bg-blue-600 w-8 h-8 rounded-full shadow-lg flex items-center justify-center"><i class="fas fa-briefcase text-white text-sm"></i></div>
+                        <div class="hidden md:block w-1/2"></div>
+                    </div>
+                    
+                     <div class="mb-12 flex items-center w-full reveal">
+                        <div class="hidden md:block w-1/2"></div>
+                        <div class="z-10 bg-blue-600 w-8 h-8 rounded-full shadow-lg flex items-center justify-center"><i class="fas fa-certificate text-white text-sm"></i></div>
+                        <div class="bg-white p-6 rounded-lg shadow-md w-full md:w-1/2 ml-4 md:ml-8">
+                            <h3 class="text-xl font-bold">Key Certifications</h3>
+                             <ul class="mt-2 space-y-1 text-gray-700 list-disc list-inside text-sm">
+                                <li><b>Gemini Workshop</b> - Google</li>
+                                <li><b>Data Science & Gen-AI</b> - upGrad</li>
+                                <li><b>Introduction to Cybersecurity</b> - HP LIFE</li>
+                                <li><b>Effective Communication</b> - IBM SkillsBuild</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="py-24 bg-white reveal">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-4">Get In Touch</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                 <p class="text-lg text-center text-gray-700 max-w-2xl mx-auto mb-12">
+                    I am actively exploring new opportunities and would be happy to connect. Please feel free to reach out via email or the form below.
+                </p>
+                <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md border">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                         <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                         <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold shadow-sm hover:shadow-md">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+             <div class="flex justify-center space-x-6 mb-6">
+                <a href="https://github.com/iaryanbandhu7" target="_blank" aria-label="GitHub Profile" class="text-3xl hover:text-blue-400 transition duration-300"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/iaryanbandhu/" target="_blank" aria-label="LinkedIn Profile" class="text-3xl hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin"></i></a>
+             </div>
+             <p>&copy; 2025 Aryan Bandhu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- Header Shadow on Scroll ---
+            const header = document.querySelector('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 20) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // --- Mobile Menu Toggle ---
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Close mobile menu when a link is clicked
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // --- Scroll Reveal Animation ---
+            const reveal = () => {
+                const reveals = document.querySelectorAll(".reveal");
+                const windowHeight = window.innerHeight;
+                const elementVisible = 80;
+
+                for (let i = 0; i < reveals.length; i++) {
+                    const elementTop = reveals[i].getBoundingClientRect().top;
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveals[i].classList.add("active");
+                    }
+                }
+            }
+            window.addEventListener("scroll", reveal);
+            reveal(); // Initial check
+        });
+    </script>
+</body>
+</html>
