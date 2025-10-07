@@ -33,8 +33,7 @@
 
 | प्लेटफार्म | लिंक |
 | :--- | :--- |
-| **🌐 लाइव वेबसाइट** | [aryabandhu.com](/) (अगर तुमने डोमेन सेट करो है) |
-| **📧 ईमेल** | bandhuaryan3@gmail.com |
+| **📧 ईमेल** | iaryanbandhu@gmail.com |
 | **🔗 लिंक्डइन** | [www.linkedin.com/in/iaryanbandhu/](https://www.linkedin.com/in/iaryanbandhu/)
 | **🐙 GitHub** | [github.com/iaryanbandhu7](https://github.com/iaryanbandhu7)
 
