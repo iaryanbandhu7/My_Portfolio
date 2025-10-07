@@ -1,41 +1,41 @@
 # My_Portfolio
 # 💻 Aryan Bandhu | Professional Portfolio
 
-"Software Developer with a focus on Cybersecurity."
+## Software Developer with a Focus on Cybersecurity
 
-ई आधिकारिक पोर्टफोलियो वेबसाइट है जो मेरे प्रोजेक्ट, कौशल और करियर के सफर को बताती है। मैं एक उत्सुक कंप्यूटर साइंस छात्र हओ, जिसे सुरक्षित और स्केलेबल एप्लीकेशन बनाबे में मजा आवत है।
+This is the official portfolio website for Aryan Bandhu, a highly motivated Computer Science student. This repository showcases my projects, technical skills, and educational journey. I am passionate about building secure and scalable applications and actively seeking entry-level opportunities in **Software Development** and **Cybersecurity**.
 
-## 🚀 कोर कॉम्पिटेंसी (Core Competencies)
+## 🚀 Core Competencies
 
-ई मेरे मुख्य तकनीकी कौशल हैं:
+My main technical proficiencies include:
 
-* **Cybersecurity & Ethical Hacking**
-* **Programming Languages:** Python, JavaScript, SQL
-* **Development:** Full-Stack Development, Mobile Application Development
-* **Version Control:** Git & GitHub
-* **AI/ML Interest:** AI Ethics, Artificial Intelligence (AI), Artificial Neural Networks (ANNs)
+| Category | Skills |
+| :--- | :--- |
+| **Development** | Full-Stack Development, Mobile App Development, Web Application Testing |
+| **Languages** | Python, JavaScript, SQL, HTML, CSS (Tailwind) |
+| **Security** | Cybersecurity, Ethical Hacking, AI Ethics |
+| **Other** | Git & GitHub, Artificial Intelligence (AI), ANNs |
 
-## ✨ खास प्रोजेक्ट
+## ✨ Featured Project
 
-### Professional Portfolio Website (यही वाली!)
-* **विवरण:** HTML, **Tailwind CSS**, और JavaScript को इस्तेमाल करके बनाओ गओ एक रिस्पॉन्सिव पोर्टफोलियो।
-* **उद्देश्य:** मेरे तकनीकी कौशल और करियर यात्रा को ऑनलाइन दुनिया में दिखाबे खाँय।
+### Professional Portfolio Website (You are here!)
+* **Description:** A responsive, modern portfolio built using HTML, **Tailwind CSS**, and Vanilla JavaScript.
+* **Goal:** To serve as a comprehensive, centralized hub for my professional work and educational timeline.
 
-## 🎓 करियर और शिक्षा को सफर
+## 🎓 Education & Career Snapshot
 
 * **B.Tech in Computer Science:** Technocrats Institute of Technology & Science (2024 - 2028)
-* **Internship:** Tech Mahindra (2023 - 2024) - वेब एप्लीकेशन डेवलपमेंट और टेस्टिंग में काम करो।
-* **Certifications:** Gemini Workshop (Google), Data Science & Gen-AI (upGrad), Introduction to Cybersecurity (HP LIFE).
+* **Internship Experience:** Tech Mahindra (2023 - 2024) - Focused on Web Application Development and Testing.
 
-## 🔗 आओ जुड़ें
+## 🔗 Let's Connect
 
-मैं नए मौके खोज रओ हओ और हमेशा जुड़बे खाँय तैयार हओ!
+I am always open to new connections and discussing opportunities!
 
-| प्लेटफार्म | लिंक |
+| Platform | Link |
 | :--- | :--- |
-| **📧 ईमेल** | iaryanbandhu@gmail.com |
-| **🔗 लिंक्डइन** | [www.linkedin.com/in/iaryanbandhu/](https://www.linkedin.com/in/iaryanbandhu/)
+| **📧 Email** | bandhuaryan3@gmail.com |
+| **🔗 LinkedIn** | [www.linkedin.com/in/iaryanbandhu/](https://www.linkedin.com/in/iaryanbandhu/)
 | **🐙 GitHub** | [github.com/iaryanbandhu7](https://github.com/iaryanbandhu7)
 
 ---
-*ई रिपॉजिटरी **Aryan Bandhu** द्वारा मेंटेन करी गई है। &copy; 2025*
+*This repository is maintained by **Aryan Bandhu**. &copy; 2025*
