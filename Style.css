@@ -1,0 +1,76 @@
+/* Custom Styles */
+        :root {
+            --primary-color: #2563eb; /* Tailwind blue-600 */
+            --primary-hover: #1d4ed8; /* Tailwind blue-700 */
+            --text-heading: #111827;  /* Tailwind gray-900 */
+            --text-body: #374151;     /* Tailwind gray-700 */
+            --bg-light: #f8fafc;     /* A slightly softer background */
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Roboto', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+        font-family: var(--font-body);
+        color: var(--text-body); /* Keeps text on cards dark */
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        }
+
+        /* Header scroll effect */
+        header {
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        header.scrolled {
+            box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Hero background */
+        .hero-bg {
+            background-image: linear-gradient(rgba(17, 24, 39, 0.7), rgba(17, 24, 39, 0.7)), url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Improved reveal animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Timeline vertical line */
+        .timeline-line::before {
+         content: '';
+         position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5); /* Makes the timeline visible on the new background */
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #e5e7eb; }
+        ::-webkit-scrollbar-thumb {
+            background-color: var(--primary-color);
+            border-radius: 20px;
+            border: 2px solid #e5e7eb;
+        }
+        ::-webkit-scrollbar-thumb:hover { background-color: var(--primary-hover); }
+        
+        #skills h2, #experience h2 {
+        color: #ffffff;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+        }
